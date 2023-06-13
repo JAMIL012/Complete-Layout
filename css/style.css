@@ -1,0 +1,263 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+section {
+  padding: 75px 0px;
+}
+p {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 300px;
+}
+.btn {
+  width: 200px;
+  padding: 20px;
+  font-size: 17px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.sub-heading {
+  text-transform: uppercase;
+  margin: 20px auto;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.underline {
+  border-top: 5px solid #00000038;
+  width: 5%;
+  margin: 10px auto;
+}
+.writing-part {
+  margin-bottom: 50px;
+}
+.box-part {
+}
+.box {
+  padding: 0px 25px;
+}
+
+/* Layout  */
+.container {
+  width: 90%;
+  margin: auto;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+[class*='col-'] {
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+/* Header part */
+header {
+  background-color: #87509c;
+}
+nav {
+  padding: 10px 0px;
+}
+.logo-part {
+  text-align: left;
+}
+
+.menu-part ul {
+  text-align: end;
+  padding: 6px 0px;
+}
+.menu-part li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 15px;
+}
+.menu-part a {
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+.menu-part li:hover {
+  background-color: rgba(0, 0, 0, 0.219);
+  padding: 5px 12px;
+  border-radius: 10px;
+}
+.hero-part {
+  padding: 150px 100px;
+  text-align: center;
+}
+.hero-part h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 45px;
+}
+.hero-part button {
+  background-color: #eb7d4b;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* service section  */
+#service {
+  background-color: #17c2a4;
+  color: #ffff;
+  text-align: center;
+}
+#service .box img {
+  height: 130px;
+}
+/* team section  */
+#team {
+  background-color: #e7f1f8;
+  color: #000;
+  text-align: center;
+}
+#team .box p {
+  margin: 20px 0px;
+}
+.team-icon-box {
+  margin-top: 10px;
+}
+.team-icon-box i {
+  font-size: 17px;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  width: 45px;
+  border-radius: 100%;
+}
+
+.p-t {
+  font-size: 20px;
+  color: #30bae7;
+}
+/* skill section  */
+#skill {
+  text-align: center;
+}
+
+/* portfolio section  */
+#portfolio {
+  background-color: #ffdd99;
+  text-align: center;
+}
+#portfolio .btn {
+  background-color: #17c2a4;
+  width: 250px;
+  padding: 25px;
+  color: #fff;
+}
+#portfolio .box-part {
+  margin-bottom: 50px;
+}
+#portfolio .box p {
+  margin-top: 20px;
+}
+.portfolio-btn-box {
+  margin-top: 50px;
+}
+.portfolio-btn-box button {
+  color: #393939;
+  padding: 5px 10px;
+  width: 50px;
+}
+#about {
+  background-color: #d74680;
+  color: #fff;
+  text-align: center;
+}
+#contact {
+  background-color: #3c5499;
+  color: #fff;
+  text-align: center;
+}
+form {
+  width: 60%;
+  margin: auto;
+}
+.form-part-one {
+  margin-bottom: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #273a71;
+  color: #fff;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+input[type='text'] {
+  width: 98%;
+  margin-right: 2%;
+}
+input[type='email'] {
+  width: 98%;
+  margin-left: 2%;
+}
+input[type='submit'] {
+  background-color: #30bae7;
+  margin-top: 20px;
+}
+#last {
+  background-color: #344b8e;
+}
+#last,
+nav,
+a {
+  color: #fff;
+  text-align: center;
+  word-spacing: 50px;
+}
+#about .writing-part1 {
+  text-align: left;
+}
+#about .box-part {
+  padding: 30px 0px;
+}
